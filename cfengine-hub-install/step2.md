@@ -1,7 +1,13 @@
 Bootstrap the hub to itself
 
 
-## Task
+## Tweaks
+The MPF needs to be tweaked so that we can collect from locahost.
+
+edit /var/cfengine/NovaBase/share/masterfiles/controls/reports.cf and add 127.0.0.1 to the query access rules.
+
+
+## Bootstrap and run the policy
 
 `sudo /var/cfengine/bin/cf-agent --bootstrap [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
 `sudo /var/cfengine/bin/cf-agent --no-lock --inform`{{execute}}
