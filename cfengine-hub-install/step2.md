@@ -18,7 +18,7 @@ edit /var/cfengine/NovaBase/share/masterfiles/controls/reports.cf and add 127.0.
 
  alternatively define def.policy_servers to include 127.0.0.1
  
- `echo '{ "vars": { "policy_servers": [ "127.0.0.1" ] } }' > /var/cfengine/NovaBase/share/masterfiles/def.json`{{execute}}
+ `echo '{ "vars": { "policy_servers": [ "127.0.0.1" ] } }' > /var/cfengine/share/NovaBase/masterfiles/def.json`{{execute}}
  
 ## Bootstrap and run the policy
 
