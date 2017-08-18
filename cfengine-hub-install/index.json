@@ -2,7 +2,7 @@
   "title": "CFEngine Hub Install",
   "description": "Install a CFEngine Hub",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "<10 minutes",
   "details": {
     "steps": [
       {
