@@ -28,4 +28,4 @@ Inital login creds admin/admin.
 NOTE: you will get a Bad Gateway error during initial login, re-visit the main url and complete the password change in order to log in.
 
 ## Collect reports from the hub
-`cf-hub -q delta -H $(hostname -f) -v)`{{execute}}
+`cf-hub -q delta -H $(hostname -f) -v`{{execute}}
