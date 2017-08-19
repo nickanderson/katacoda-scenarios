@@ -5,4 +5,4 @@ First, since spacemacs requires a modern build of emacs, we configure a ppa.
 
 Then, install git and emacs.
 
-`sudo apt install git emacs25`{{execute}}
+`sudo apt install git emacs25-nox`{{execute}}
