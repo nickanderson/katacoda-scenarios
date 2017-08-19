@@ -11,8 +11,7 @@
       },
       {
         "title": "Step 1 - Install Package",
-        "text": "step1.md",
-        "verify": "step1-verify.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2 - Bootstrap Hub",
