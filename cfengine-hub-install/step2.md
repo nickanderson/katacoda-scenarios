@@ -1,7 +1,13 @@
-Bootstrap the hub to itself:
+[Download](https://cfengine.com/product/cfengine-enterprise-free-25/) and install the Ubuntu Hub Package. We will use the use the quick install script. It installs the most recent LTS version of CFEngine Enterprise by default.
 
-`sudo /var/cfengine/bin/cf-agent --bootstrap [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
+Download the script:
 
-Run the policy to complete the installation:
+`wget http://s3.amazonaws.com/cfengine.packages/quick-install-cfengine-enterprise.sh`{{execute}}
 
-`sudo /var/cfengine/bin/cf-agent --no-lock --inform`{{execute}}
+Run it:
+
+`sudo bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
+
+Or specify the specific version you want to install:
+
+`sudo CFEngine_Enterprise_Package_Version="3.11.0" bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}

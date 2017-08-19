@@ -1,3 +1,7 @@
-Within the next few minutes the hub will collect the reports from the prior policy run and Mission Portal will be populated with data. Let's speed this up by manually collecting the reports.
+Bootstrap the hub to itself:
 
-`sudo cf-hub -q delta -H $(hostname -f) -v`{{execute}}
+`sudo /var/cfengine/bin/cf-agent --bootstrap [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
+
+Run the policy to complete the installation:
+
+`sudo /var/cfengine/bin/cf-agent --no-lock --inform`{{execute}}

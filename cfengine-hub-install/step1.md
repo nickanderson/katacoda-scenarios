@@ -1,13 +1,7 @@
-[Download](https://cfengine.com/product/cfengine-enterprise-free-25/) and install the Ubuntu Hub Package. We will use the use the quick install script. It installs the most recent LTS version of CFEngine Enterprise by default.
+First lets ensure that the hostname we request when accessing Mission Portal resolves correctly.
 
-Download the script:
+`sudo bash -c "echo 127.0.0.1 [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com >> /etc/hosts"`{{execute}}
 
-`wget http://s3.amazonaws.com/cfengine.packages/quick-install-cfengine-enterprise.sh`{{execute}}
+Next we ensure this is the hosts fqdn so that ssl certificates generated during install will match.
 
-Run it:
-
-`sudo bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
-
-Or specify the specific version you want to install:
-
-`sudo CFEngine_Enterprise_Package_Version="3.11.0" bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
+`sudo hostnamectl set-hostname [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
