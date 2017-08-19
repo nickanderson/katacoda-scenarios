@@ -6,25 +6,25 @@
   "details": {
     "steps": [
       {
-        "title": "Step 0 - Configure the host",
-        "text": "step0.md"
-      },
-      {
-        "title": "Step 1 - Install Package",
+        "title": "Step 1 - Configure the host",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Bootstrap Hub",
-         "text": "step2.md",
+        "title": "Step 2 - Install Package",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Bootstrap Hub",
+         "text": "step3.md",
          "code": "patch-allow-query-127.0.0.1.sh"
       },
       {
-        "title": "Step 3 - Collect Reports",
-         "text": "step3.md"
+        "title": "Step 4 - Collect Reports",
+         "text": "step4.md"
       },
       {
-        "title": "Step 4 - Log in to Mission Portal",
-         "text": "step3.md"
+        "title": "Step 5 - Log in to Mission Portal",
+         "text": "step5.md"
       }
     ],
     "intro": {
