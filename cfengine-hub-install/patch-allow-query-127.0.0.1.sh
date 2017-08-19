@@ -7,4 +7,4 @@ FILE1=/var/cfengine/share/NovaBase/masterfiles/controls/reports.cf
 FILE2=$FILE1
 
 # https://stackoverflow.com/a/32391110/2854727
-sudo sed -e '/default_data_select_policy_hub/!b' -e ':a' -e "s/$CURRENT_VER/$NEW_VER/;t trail" -e 'n;ba' -e ':trail' -e 'n;btrail' $FILE1 > $FILE2
+sudo sed -e '/default_data_select_policy_hub/!b' -e ':a' -e "s/$CURRENT_VER/$NEW_VER/;t trail" -e 'n;ba' -e ':trail' -e 'n;btrail' $FILE1 | sudo tee $FILE2
