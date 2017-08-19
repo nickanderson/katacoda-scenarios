@@ -7,3 +7,4 @@ Launch `emacs25`{{execute}}, complete the wizard then type `SPC f e d` to edit t
 - `cfengine`
 - `syntax-checking`
 
+I found the `manoj-dark` theme works the best with the dark katacode termainal. Consider setting dotspacemacs-themes with janoj-dark listed first.
