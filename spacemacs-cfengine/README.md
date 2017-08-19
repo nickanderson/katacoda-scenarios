@@ -1,0 +1,2 @@
+# Spacemacs for CFEngine
+

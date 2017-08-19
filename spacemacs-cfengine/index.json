@@ -1,0 +1,55 @@
+{
+  "title": "Spacemacs for CFEngine Policy",
+  "description": "Install Spacemacs and configure for use with CFEngine Policy",
+  "difficulty": "beginner",
+  "time": "<10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Configure the host",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Install Package",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Bootstrap Hub",
+         "text": "step3.md",
+         "code": "patch-allow-query-127.0.0.1.sh"
+      },
+      {
+        "title": "Step 4 - Collect Reports",
+         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Log in to Mission Portal",
+         "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Install emacs and git",
+         "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Install and configure Spacemacs",
+         "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Mission Portal", "port": 443}],
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
