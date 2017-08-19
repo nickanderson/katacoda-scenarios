@@ -10,4 +10,4 @@ Run it:
 
 Or specify the specific version you want to install:
 
-`sudo bash CFEngine_Enterprise_Package_Version="3.11.0" ./quick-install-cfengine-enterprise.sh hub`{{execute}}
+`sudo CFEngine_Enterprise_Package_Version="3.11.0" bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
