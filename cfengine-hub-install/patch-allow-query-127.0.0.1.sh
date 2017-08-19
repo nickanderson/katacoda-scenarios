@@ -1,3 +1,4 @@
+#!/bin/env bash
 
 NEW_VER="      admit => { \"127.0.0.1\", @(def.policy_servers) };"
 CURRENT_VER="      admit => { @(def.policy_servers) };"
