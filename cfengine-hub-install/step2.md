@@ -4,10 +4,6 @@ Download the script:
 
 `wget http://s3.amazonaws.com/cfengine.packages/quick-install-cfengine-enterprise.sh`{{execute}}
 
-Run it:
-
-`sudo bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
-
-Or specify the specific version you want to install:
+Let's install the the 3.11 version to see whats new!
 
 `sudo CFEngine_Enterprise_Package_Version="3.11.0" bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
