@@ -1,4 +1,4 @@
-[Download](https://cfengine.com/product/cfengine-enterprise-free-25/) and install the Ubuntu Hub Package. We will use the use the quick install script.
+[Download](https://cfengine.com/product/cfengine-enterprise-free-25/) and install the Ubuntu Hub Package. We will use the use the quick install script. It installs the most recent LTS version of CFEngine Enterprise by default.
 
 Download the script:
 
@@ -7,3 +7,7 @@ Download the script:
 Run it:
 
 `sudo bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
+
+Or specify the specific version you want to install:
+
+`sudo bash CFEngine_Enterprise_Package_Version="3.11.0" ./quick-install-cfengine-enterprise.sh hub`{{execute}}
