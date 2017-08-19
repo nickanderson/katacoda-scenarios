@@ -6,9 +6,12 @@
   "details": {
     "steps": [
       {
+        "title": "Step 0 - Configure the host",
+        "text": "step0.md",
+      },
+      {
         "title": "Step 1 - Install Package",
         "text": "step1.md",
-        "courseData": "env-init.sh"
       },
       {
         "title": "Step 2 - Bootstrap Hub",
