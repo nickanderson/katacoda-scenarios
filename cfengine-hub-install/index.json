@@ -17,6 +17,14 @@
         "title": "Step 2 - Bootstrap Hub",
          "text": "step2.md",
          "code": "patch-allow-query-127.0.0.1.sh"
+      },
+      {
+        "title": "Step 3 - Collect Reports",
+         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Log in to Mission Portal",
+         "text": "step3.md"
       }
     ],
     "intro": {
