@@ -1,1 +1,1 @@
-[ -x /var/cfengine/bin/cf-hub ] && echo "done"
+[ -d /var/cfengine/bin ] && echo "done"
