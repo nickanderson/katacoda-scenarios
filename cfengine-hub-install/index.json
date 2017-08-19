@@ -12,7 +12,7 @@
       {
         "title": "Step 2 - Bootstrap Hub",
          "text": "step2.md",
-         "courseData": "patch-allow-query-127.0.0.1.sh"
+         "code": "patch-allow-query-127.0.0.1.sh"
       }
     ],
     "intro": {
