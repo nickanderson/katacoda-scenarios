@@ -1,8 +1,9 @@
-Download the appropriate package for your platform. We will use the  or use the quick install script.
+[Download](https://cfengine.com/product/cfengine-enterprise-free-25/) and install the Ubuntu Hub Package. We will use the use the quick install script.
 
-## Configure hostname, download and Install Package
+Download the script:
 
-`sudo bash -c "echo 127.0.0.1 [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com >> /etc/hosts"`{{execute}}
-`sudo hostnamectl set-hostname [[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com`{{execute}}
 `wget http://s3.amazonaws.com/cfengine.packages/quick-install-cfengine-enterprise.sh`{{execute}}
+
+Run it:
+
 `sudo bash ./quick-install-cfengine-enterprise.sh hub`{{execute}}
